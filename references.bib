@@ -2454,24 +2454,22 @@
   file       = {Snapshot:/home/olek/Zotero/storage/ID2UR2L4/j3016_202104.html:text/html}
 }
 
-@inproceedings{samota,
-  author    = {Haq, Fitash Ul and Shin, Donghwan and Briand, Lionel},
-  title     = {Efficient online testing for DNN-enabled systems using surrogate-assisted and many-objective optimization},
-  year      = {2022},
-  isbn      = {9781450392211},
-  publisher = {Association for Computing Machinery},
-  address   = {New York, NY, USA},
-  url       = {https://doi.org/10.1145/3510003.3510188},
-  doi       = {10.1145/3510003.3510188},
-  abstract  = {With the recent advances of Deep Neural Networks (DNNs) in real-world applications, such as Automated Driving Systems (ADS) for self-driving cars, ensuring the reliability and safety of such DNN-enabled Systems emerges as a fundamental topic in software testing. One of the essential testing phases of such DNN-enabled systems is online testing, where the system under test is embedded into a specific and often simulated application environment (e.g., a driving environment) and tested in a closed-loop mode in interaction with the environment. However, despite the importance of online testing for detecting safety violations, automatically generating new and diverse test data that lead to safety violations presents the following challenges: (1) there can be many safety requirements to be considered at the same time, (2) running a high-fidelity simulator is often very computationally-intensive, and (3) the space of all possible test data that may trigger safety violations is too large to be exhaustively explored.In this paper, we address the challenges by proposing a novel approach, called SAMOTA (Surrogate-Assisted Many-Objective Testing Approach), extending existing many-objective search algorithms for test suite generation to efficiently utilize surrogate models that mimic the simulator, but are much less expensive to run. Empirical evaluation results on Pylot, an advanced ADS composed of multiple DNNs, using CARLA, a high-fidelity driving simulator, show that SAMOTA is significantly more effective and efficient at detecting unknown safety requirement violations than state-of-the-art many-objective test suite generation algorithms and random search. In other words, SAMOTA appears to be a key enabler technology for online testing in practice.},
-  booktitle = {Proceedings of the 44th International Conference on Software Engineering},
-  pages     = {811–822},
-  numpages  = {12},
-  keywords  = {DNN testing, many-objective search, online testing, self-driving cars, surrogate-assisted optimization},
-  location  = {Pittsburgh, Pennsylvania},
-  series    = {ICSE '22}
+@inproceedings{haq2023many,
+  title        = {Many-objective reinforcement learning for online testing of dnn-enabled systems},
+  author       = {Haq, Fitash Ul and Shin, Donghwan and Briand, Lionel C},
+  booktitle    = {2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)},
+  pages        = {1814--1826},
+  year         = {2023},
+  organization = {IEEE}
 }
 
+@inproceedings{haq2022efficient,
+  title     = {Efficient online testing for DNN-enabled systems using surrogate-assisted and many-objective optimization},
+  author    = {Haq, Fitash Ul and Shin, Donghwan and Briand, Lionel},
+  booktitle = {Proceedings of the 44th international conference on software engineering},
+  pages     = {811--822},
+  year      = {2022}
+}
 @article{santara2021madras,
   title   = {Madras: Multi agent driving simulator},
   author  = {Santara, Anirban and Rudra, Sohan and Buridi, Sree Aditya and Kaushik, Meha and Naik, Abhishek and Kaul, Bharat and Ravindran, Balaraman},
